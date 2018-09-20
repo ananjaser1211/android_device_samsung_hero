@@ -17,7 +17,7 @@
 /system		ext4	/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
 /data		ext4	/dev/block/platform/13540000.dwmmc0/by-name/USERDATA flags=length=-20480,encryptable=footer
 /cache		ext4	/dev/block/platform/13540000.dwmmc0/by-name/CACHE
-/preload	ext4	/dev/block/platform/13540000.dwmmc0/by-name/HIDDEN	 flags=backup=1;display="Preload"
+/preload	ext4	/dev/block/platform/13540000.dwmmc0/by-name/HIDDEN	 flags=backup=1;wipeingui;display="Preload"
 /boot		emmc	/dev/block/platform/13540000.dwmmc0/by-name/BOOT	 flags=backup=1;display="Kernel"
 /recovery	emmc	/dev/block/platform/13540000.dwmmc0/by-name/RECOVERY flags=backup=1;display="Recovery"
 /modem		emmc	/dev/block/platform/13540000.dwmmc0/by-name/RADIO    flags=backup=1;display="Baseband"
