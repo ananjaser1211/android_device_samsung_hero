@@ -17,8 +17,8 @@
 # Platform
 BOARD_VENDOR := samsung
 TARGET_BOARD_PLATFORM := exynos5
-TARGET_SOC := exynos7880
-TARGET_BOOTLOADER_BOARD_NAME := universal7880
+TARGET_SOC := exynos8890
+TARGET_BOOTLOADER_BOARD_NAME := universal8890
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
@@ -38,12 +38,12 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos7880-a5y17lte_eur_defconfig
+TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/universal7880
+TARGET_KERNEL_SOURCE := kernel/samsung/herolte
 
 # Image
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/a5y17lte/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/herolte/mkbootimg.mk
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_BASE := 0x10000000
@@ -74,5 +74,5 @@ BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/a5y17lte/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/herolte/include
 

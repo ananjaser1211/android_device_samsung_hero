@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a5y17lte/
+LOCAL_PATH := device/samsung/herolte/
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_a5y17lte.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_herolte.mk

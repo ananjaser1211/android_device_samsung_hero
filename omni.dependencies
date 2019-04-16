@@ -1,8 +1,8 @@
 [
 	{
 		"remote":"github",
-		"repository":"TeamWin/android_kernel_samsung_universal7880",
-		"target_path":"kernel/samsung/universal7880",
-		"revision":"android-8.1"
+		"repository":"exynos-linux-stable/herolte",
+		"target_path":"kernel/samsung/herolte",
+		"revision":"tw80-android"
 	}
 ]
