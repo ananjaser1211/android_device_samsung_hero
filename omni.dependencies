@@ -1,8 +1,0 @@
-[
-	{
-		"remote":"github",
-		"repository":"exynos-linux-stable/herolte",
-		"target_path":"kernel/samsung/herolte",
-		"revision":"tw80-android"
-	}
-]

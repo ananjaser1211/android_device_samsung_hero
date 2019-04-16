@@ -37,19 +37,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
-TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/herolte
-
-# Image
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/herolte/mkbootimg.mk
-BOARD_KERNEL_IMAGE_NAME := Image
-BOARD_KERNEL_SEPARATED_DT := true
+TARGET_PREBUILT_KERNEL := device/samsung/herolte/kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/herolte/dt.img
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -72,7 +63,3 @@ TW_EXTRA_LANGUAGES := true
 TW_USE_NEW_MINADBD := true
 BOARD_HAS_NO_REAL_SDCARD := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-
-# Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/herolte/include
-
