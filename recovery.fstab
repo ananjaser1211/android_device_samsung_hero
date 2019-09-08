@@ -16,7 +16,9 @@
 
 /system		ext4	/dev/block/platform/155a0000.ufs/by-name/SYSTEM
 /data		ext4	/dev/block/platform/155a0000.ufs/by-name/USERDATA flags=length=-20480,encryptable=footer
+/data		f2fs	/dev/block/platform/155a0000.ufs/by-name/USERDATA flags=length=-20480,encryptable=footer
 /cache		ext4	/dev/block/platform/155a0000.ufs/by-name/CACHE
+/cache		f2fs	/dev/block/platform/155a0000.ufs/by-name/CACHE
 /preload	ext4	/dev/block/platform/155a0000.ufs/by-name/HIDDEN	 flags=backup=1;wipeingui;display="Preload"
 /boot		emmc	/dev/block/platform/155a0000.ufs/by-name/BOOT	 flags=backup=1;display="Kernel"
 /recovery	emmc	/dev/block/platform/155a0000.ufs/by-name/RECOVERY flags=backup=1;display="Recovery"
