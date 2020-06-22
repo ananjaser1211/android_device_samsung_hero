@@ -21,6 +21,7 @@ Add to `.repo/local_manifests/hero2lte.xml`:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="ananjaser1211/android_device_samsung_hero" path="device/samsung/hero2lte" remote="github" revision="hero2lte" />
+  <project path="external/busybox" name="android_external_busybox" remote="TeamWin" revision="android-9.0" />
 </manifest>
 ```
 
