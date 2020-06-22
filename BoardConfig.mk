@@ -49,6 +49,7 @@ TW_USE_NEW_MINADBD := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_FORCE_USE_BUSYBOX := true
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 # exFAT drivers included in the kernel
 TW_NO_EXFAT_FUSE := true
