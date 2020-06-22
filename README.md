@@ -1,6 +1,6 @@
 # TWRP device tree for Samsung S7 aka herolte
 
- Copyright (C) 2019 Ananjaser1211 Open-source
+ Copyright (C) 2020 Ananjaser1211 Open-source
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -29,9 +29,10 @@ Then run `repo sync` to check it out.
 To build:
 
 ```sh
+export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 lunch omni_herolte-eng
-make -j64 recoveryimage
+mke -j64 recoveryimage
 ```
 
-Kernel sources are available at: https://github.com/exynos-linux-stable/herolte
+Kernel sources are available at: https://github.com/https://github.com/ananjaser1211/Cronos_8890/
