@@ -22,6 +22,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/hero2lte/mkbootimg.mk
 TARGET_PREBUILT_KERNEL := device/samsung/hero2lte/kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
