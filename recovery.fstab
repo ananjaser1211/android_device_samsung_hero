@@ -2,6 +2,7 @@
 /recovery		emmc	/dev/block/platform/155a0000.ufs/by-name/RECOVERY	flags=backup=1
 
 /system			ext4	/dev/block/platform/155a0000.ufs/by-name/SYSTEM
+/system_image			emmc	/dev/block/platform/155a0000.ufs/by-name/SYSTEM
 /data			ext4	/dev/block/platform/155a0000.ufs/by-name/USERDATA	flags=encryptable=footer;length=-20480
 /cache			ext4	/dev/block/platform/155a0000.ufs/by-name/CACHE
 /misc			emmc    /dev/block/platform/155a0000.ufs/by-name/OTA
