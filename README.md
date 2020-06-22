@@ -1,4 +1,4 @@
-# TWRP device tree for Samsung S7 aka herolte
+# TWRP device tree for Samsung S7 Edge aka hero2lte
 
  Copyright (C) 2020 Ananjaser1211 Open-source
 
@@ -15,12 +15,12 @@
  limitations under the License.
 
 
-Add to `.repo/local_manifests/herolte.xml`:
+Add to `.repo/local_manifests/hero2lte.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="ananjaser1211/android_device_samsung_hero" path="device/samsung/herolte" remote="github" revision="herolte" />
+  <project name="ananjaser1211/android_device_samsung_hero" path="device/samsung/hero2lte" remote="github" revision="hero2lte" />
 </manifest>
 ```
 
@@ -31,7 +31,7 @@ To build:
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_herolte-eng
+lunch omni_hero2lte-eng
 mke -j64 recoveryimage
 ```
 
