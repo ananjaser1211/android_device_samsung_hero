@@ -26,6 +26,8 @@ TARGET_PREBUILT_KERNEL := device/samsung/hero2lte/kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/samsung/hero2lte/dt.img
+LZMA_RAMDISK_TARGETS := recovery
+LZMA_COMPRESSION := -9
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
