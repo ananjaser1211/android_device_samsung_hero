@@ -50,6 +50,7 @@ BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_TWRPAPP := true
 TW_FORCE_USE_BUSYBOX := true
 BOARD_SUPPRESS_SECURE_ERASE := true
+TW_INCLUDE_RESETPROP := true
 
 # exFAT drivers included in the kernel
 TW_NO_EXFAT_FUSE := true
