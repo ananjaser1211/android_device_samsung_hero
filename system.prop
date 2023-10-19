@@ -5,4 +5,3 @@ ro.arch=exynos8890
 ro.lcd_min_brightness=0
 ro.lcd_brightness=162
 ro.sf.lcd_density=560
-persist.sys.usb.config=mtp,adb
