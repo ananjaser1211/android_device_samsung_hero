@@ -12,3 +12,7 @@ resetprop "ro.twrp.sar" "false"
 resetprop "ro.adb.secure" "0"
 resetprop "ro.secure" "0"
 resetprop "ro.debuggable" "1"
+
+# Set MTP model name
+resetprop "ro.product.model" "Galaxy_S7"
+resetprop "ro.product.name" "Galaxy_S7"
